@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <Title>Pemesanan</Title>
+    </head>
+    <body>
+    
+       <fieldset>
+           <legend><center><b><hi style="color:black">BURGER SEJAHTERA MENU'S</hi></b></center></legend>
+       
+        <from method="POST" action="login.php">
+            Nama              : <input type="text" name="Nama"/>
+            <br/>
+            <label>Alamat : <textarea name="alamat" cols="40" rows="2"></textarea></label><br>
+            <label>Hari/Tanggal: <input type="date" name="Hari/Tanggal"></label>
+            <BR/>
+            <label>Nomer.Telpn : <input type="text" name="Nomer.Telpn"></label>
+            <BR/>
+            <label>Nomer pesanan : <input type="number" name="Nomer pesanan"></label>
+            <BR/>
+            <BODY bgcolor="#d0d0d0" text="babyblue"></BODY>
+            
+    <h4>MENU</h4> 
+    <p style="margin-bottom: 0%;"> Burger :</p>
+    <span><from action="/action_page.php"></span>
+        <Input type="checkbox" id="vehicle1" nama="vehicle1" value="chesee">
+        <label for="vehicle1"> Chesee Burger</label>
+        <label> <input type="number" min="1" max="10"></label><br>
+        <input type="checkbox" id="vehicle2" nama="vehicle2" value="whopper">
+        <label for="vehicle2"> whopper</label>
+        <label>  <input type="number" min="1" max="10"></label><br>
+        <input type="checkbox" id="vehicle3" nama="vehicle3" value="chicken">
+        <label for="vehicle3"> spicy chicken burger</label>
+        <label> <input type="number" min="1" max="10"></label><br>
+        <input type="checkbox" id="vehicle4" nama="vehicle4" value="beef">
+        <label for="vehicle4"> Beef burger</label>
+        <label> <input type="number" min="1" max="10"></label><br>
+    </from>
+
+    <p style="margin-bottom: 0%;">Minuman</p>
+    <from action="/action_page.php">
+        <input type="checkbox" id="vehicle1" nama="vehicle1" value="Coke">
+        <label for="vehicle1"> Coca-cola</label><br>
+        <input type="checkbox" id="vehicle2" nama="vehicle2" value="lemon tea">
+        <label for="vehicle2"> Ice lemon tea</label><br>
+        <input type="checkbox" id="vehicle3" nama="vehicle3" value="Juz">
+        <label for="vehicle3"> Jus : </label>
+          <select name=" Jus">
+              <option>Jus mangga</option>
+              <option>jus sirsak</option>
+              <option>jus strowbery</option>
+          </select>
+          </from>
+          <BR/>
+          <label>Keterangan : <textarea name="keterangan" cols="40" rows="3"></textarea></label>
+        </fieldset>
+
+<p><input type="submit"> <input type="reset"></p>
+
+</body>
